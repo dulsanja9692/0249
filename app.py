@@ -16,7 +16,8 @@ with open('scaler.pkl', 'rb') as f:
     scaler = pickle.load(f)
 
 # Load dataset
-df = pd.read_csv('data\diabetes.csv')
+df = pd.read_csv("data/diabetes.csv")
+
 
 
 # ----------------------------
