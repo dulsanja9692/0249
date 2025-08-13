@@ -18,6 +18,7 @@ with open('scaler.pkl', 'rb') as f:
 # Load dataset
 df = pd.read_csv('data\diabetes.csv')
 
+
 # ----------------------------
 # Streamlit App
 # ----------------------------
